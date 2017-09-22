@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+.content{
+    width:100%;
+    height:auto;
+}
+.content ul{
+    width:100%;
+    height:253px;
+    background: red;
+}
+.content ul li{
+    width:25%;
+    height:253px;
+    /*background: yellow;*/
+    float:left;
+    position: relative;
+    overflow: hidden;
+}
+.content ul li img{
+    width:100%;
+    height:253px;
+    transition: all 1s;
+}
+.yinying{
+    width:100%;
+    height:253px;
+    background: rgba(0,0,0,.5);
+    position: absolute;
+    top:0;
+}
+
+.neibox{
+    width:298px;
+    height:165px;
+    /*background: skyblue;*/
+    position: absolute;
+    top:0;
+    margin: 44px 20px;
+    padding-top:6px;
+    box-sizing: border-box;
+}
+.date{
+    width:100%;
+    height:32px;
+    /*background: yellow;*/
+    font-size: 14px;
+    text-align: center;
+    color: #fff;
+}
+.h{
+    width:20px;
+    height:2px;
+    background: #fff;
+    margin:0 auto;
+    margin-top: 11px;
+}
+.didian{
+    width:100%;
+    height:62px;
+    /*background: yellow;*/
+    margin-top: 7px;
+    font-size: 23px;
+    text-align: center;
+    padding: 0 10px;
+    box-sizing: border-box;
+    color: #fff;
+}
+.particulars{
+    width:60px;
+    height:36px;
+    border: 1px solid #7fa409;
+    margin: 0 auto;
+    margin-top: 20px;
+    padding: 0 15px;
+    box-sizing: border-box;
+}
+.particulars a{
+    font-size: 14px;
+    color: #7fa409;
+    text-align: center;
+    line-height: 36px;
+}
+.content ul li:hover img{
+    transform: scale(1.1) ;
+}
+
+.load{
+    width:100%;
+    height:34px;
+    background: #E4EAEC;
+    transition: all 0.3s;
+}
+.load a{
+    display: block;
+    width:1349px;
+    height:34px;
+    padding: 0 651px;
+    box-sizing: border-box;
+}
+
+.load span a{
+    font-size: 14px;
+    line-height: 34px;
+    color: #7A8793;
+    font-family: 'iconfont';
+
+}
+.load:hover{
+    background: #7fa409;
+
+}
+.load:hover a{
+    color: #fff;
+}
+
+
+
+
+/*所有iconfont*/
+@font-face {
+    font-family: 'iconfont';  /* project id 397263 */
+    src: url('http://at.alicdn.com/t/font_397263_wzgo7l1e7i6vquxr.eot');
+    src: url('http://at.alicdn.com/t/font_397263_wzgo7l1e7i6vquxr.eot?#iefix') format('embedded-opentype'),
+    url('http://at.alicdn.com/t/font_397263_wzgo7l1e7i6vquxr.woff') format('woff'),
+    url('http://at.alicdn.com/t/font_397263_wzgo7l1e7i6vquxr.ttf') format('truetype'),
+    url('http://at.alicdn.com/t/font_397263_wzgo7l1e7i6vquxr.svg#iconfont') format('svg');
+}

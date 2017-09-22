@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+main{
+    width:1140px;
+    height: auto;
+    /*background: red;*/
+    margin: 0 auto;
+}
+header{
+    width: 100%;
+    height: 100px;
+    background:#fafafa;
+    padding-top:30px;
+    box-sizing: border-box;
+}
+.row{
+    width:1170px;
+    height:64px;
+    /*background: red;*/
+    margin:0 auto;
+
+}
+.row>img{
+    width:180px;
+    height:60px;
+    float: left;
+    padding: 1px;
+
+}
+.rowRight{
+    width:650px;
+    height:59px;
+    /*background:greenyellow;*/
+    float: right;
+    padding-top: 5px;
+    color: #7fa409;
+}
+
+.rowRight>span{
+    display: block;
+    float: right;
+    line-height: 59px;
+}
+.rowRight>span>a{
+    color: blue;
+}
+.beijing{
+    width: 100%;
+    height: 700px;
+    position: relative;
+}
+.beijing>img{
+     width: 100%;
+    height: 700px;
+}
+
+.loadingbox{
+    width: 360px;
+    height: 500px;
+    /* background: rgba(190, 189, 204, 0.3); */
+   background-image: linear-gradient(10deg, rgba(190, 189, 204, 0.3),rgba(255, 255, 255, 0.7));
+    border-radius: 20px;
+    position: absolute;
+    top: 100px;
+    left: 300px;
+}
+.load{
+    width: 300px;
+    height: 440px;
+    background: rgba(0, 0, 0, 0.2);
+    margin: 30px 30px;
+    border-radius: 20px;
+    padding-top: 20px;
+    box-sizing: border-box;
+}
+.load>p{
+    font-size: 28px;
+    color: #fff;
+    text-align: center;
+}
+.load>input{
+    width: 250px;
+    height: 30px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    margin-left: 25px;
+    margin-top: 30px;
+    border: none;
+    padding-left:7px;
+    box-sizing: boeder-box; 
+    outline: none;
+
+}
+
+
+.wangji{
+    float: right;
+    margin-right: 30px;
+    font-size: 14px;
+}
+.loadZi{
+    width: 250px;
+    height: 40px;
+    background: #fff;
+    border-radius: 8px;
+    margin-left: 25px;
+    margin-top: 40px;
+    font-size: 20px;
+    line-height: 40px;
+    text-align: center;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*所有iconfont*/
+@font-face {
+    font-family: 'iconfont';  /* project id 397263 */
+    src: url('http://at.alicdn.com/t/font_397263_mtcpwinl6h9qkt9.eot');
+    src: url('http://at.alicdn.com/t/font_397263_mtcpwinl6h9qkt9.eot?#iefix') format('embedded-opentype'),
+    url('http://at.alicdn.com/t/font_397263_mtcpwinl6h9qkt9.woff') format('woff'),
+    url('http://at.alicdn.com/t/font_397263_mtcpwinl6h9qkt9.ttf') format('truetype'),
+    url('http://at.alicdn.com/t/font_397263_mtcpwinl6h9qkt9.svg#iconfont') format('svg');
+}

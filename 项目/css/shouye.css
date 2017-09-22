@@ -1,0 +1,177 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+main{
+    width:1200px;
+    height: auto;
+    margin: 0 auto;
+}
+body{
+    background: #ccc;
+}
+header{
+    width:100%;
+    height:85px;
+    background: #ccc;
+    padding-top: 20px;
+    box-sizing: border-box;
+}
+.nav{
+    width:1200px;
+    height:45px;
+    background: black;
+
+    display: flex;
+    justify-content: space-around;
+}
+.nav>li{
+    width: 200px;
+    height: 45px;
+    font-size: 16px;
+    text-align: center;
+    line-height: 45px;
+}
+.nav>li>a{
+    display: block;
+    width: 200px;
+    height: 45px;
+    color: #fff;
+}
+.nav>li:hover{
+    background: #71a51d;
+}
+
+
+
+
+.beijing{
+    width: 100%;
+    height:500px;
+    background: #ccc;
+    position: relative;
+}
+.beijing>img{
+    width: 100%;
+    height:500px;
+}
+.beijing>.logo{
+    width:180px;
+    height: 60px;
+    position: absolute;
+    top: 0;
+    left:75px;
+}
+.about{
+    width:100%;
+    height:400px;
+    background: red;
+}
+.aTop{
+    width:100%;
+    height:45px;
+    background: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 45px;
+    text-align: center;
+    color: #71a51d;
+}
+.tp{
+    width:500px;
+    height:400px;
+    float: left;
+}
+.tp>img{
+    width:500px;
+    height:400px;
+
+}
+.js{
+    width:700px;
+    height:400px;
+    background: #fafafa;
+    float: right;
+    font-size: 18px;
+    padding: 50px;
+    padding-left: 10px;
+    box-sizing: border-box;
+    line-height: 2;
+}
+
+
+.bannerBox{
+    width:500px;
+    height:375px;
+    background: red;
+    float: left;
+}
+.bTop{
+    width:500px;
+    height: 45px;
+    background: #fff;
+    font-size: 18px;
+    line-height: 40px;
+    color: #71a51d;
+    padding-left: 10px;
+    box-sizing: border-box;
+}
+.banner{
+    width:500px;
+    height: 330px;
+    background: yellow;
+    position: relative;
+}
+.banner>li{
+    width:500px;
+    height: 330px;
+    position: absolute;
+    top:0;
+}
+.banner>li>img{
+    width:500px;
+    height: 330px;
+}
+.banner>li{
+    display: none;
+}
+.banner>li:first-child{
+    display: block;
+}
+.left{
+    width:30px;
+    height: 50px;
+    background: yellow;
+    position: absolute;
+    top:50%;
+}
+.right{
+    width:30px;
+    height: 50px;
+    background: yellow;
+    position: absolute;
+    top:50%;
+    right: 0;
+}
+.lbdBox{
+    width:200px;
+    height: 20px;
+    position: absolute;
+    bottom:15px;
+    left:150px;
+    display: flex;
+    justify-content: space-around;
+}
+.lbdBox>li{
+    width:20px;
+    height:20px;
+    background: rgba(255,255,255,0.5);
+    float: left;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.lbdBox>li:hover{
+    background: rgba(255,255,255,1);
+}

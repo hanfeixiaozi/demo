@@ -1,0 +1,309 @@
+/*
+* @Author: Administrator
+* @Date:   2017-07-20 13:53:26
+* @Last Modified by:   Administrator
+* @Last Modified time: 2017-07-23 22:30:53
+*/
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+}
+
+
+/* 头部开始 */
+header{
+	width: 100%;
+	height: 0.92rem;
+	background: #0078e6;
+}
+
+.youyike-bigbox{
+	width: 2.01rem;
+	height: 100%;
+	/* background: green; */
+	margin: 0 auto;
+}
+.logo-box{
+	width: 0.7rem;
+	height: 0.67rem;
+	/* background: yellow; */
+	float: left;
+	margin-top: 0.13rem;
+}
+.logo-box img{
+	display: block;
+	width: 0.7rem;
+	height: 0.67rem;
+	/* background: red; */
+	font-size: 0.28rem;
+
+}
+.zi-box{
+	width:1.15rem;
+	height: 0.36rem;
+	font-size: 0.36rem;
+	color: #fff;
+	/* background: red; */
+	float: right;
+	line-height: 0.36rem;
+	margin-top: 0.28rem; 
+}
+/* 头部结束 */
+
+
+
+/* banner开始 */
+.banner{
+	width: 100%;
+	height: 2.8rem;
+	background: yellow;
+}
+.banner .a-biaoqianbox{
+	display: block;
+	width: 100%;
+	height: 2.8rem;
+	background: yellowgreen;
+}
+.a-biaoqianbox img{
+	display: block;
+	width: 100%;
+	height: 2.8rem;
+
+}
+/* banner结束 */
+
+
+
+/* 导航开始 */
+nav{
+	width: 100%;
+	height: 4.81rem;
+	background: #f4f5f9;
+}
+
+nav li{
+	width: 25%;
+	height: 2.405rem;
+	/* background: yellow; */
+	float: left;
+}
+.ui-box{
+	display: block;
+	width: 1.55rem;
+	height: 1.55rem;
+	/* background: red; */
+	border-radius: 0.25rem;
+	margin-top: 0.29rem;
+	margin-left: 0.17rem;
+}
+.ui-box img{
+	display: block;
+	width: 1.55rem;
+	height: 1.55rem;
+	border-radius: 0.25rem;
+}
+.uizi-box{
+	width: 1.55rem;
+	height: 0.35rem;
+	/* background: yellowgreen; */
+	margin-left: 0.17rem;
+	font-size: 0.20rem;
+	text-align: center;
+	margin-bottom: 0rem;
+}
+.uizi-box a{
+	color: #000000;
+}
+
+
+/* 导航结束 */
+
+/* 服务体系开始 */
+.fwtx-box{
+	width: 100%;
+	height: 4.22rem;
+	background: #e8e8e8;
+}
+.fwtx-topbox{
+	width: 100%;
+	height: 0.64rem;
+	background: #fff;
+	border-bottom: 0.01rem solid #e8e8e8;
+	box-sizing: border-box;
+	font-size: 0.24rem;
+	/* color: #0377bc; */
+	line-height: 0.64rem;
+	text-align: center;
+}
+/* 免费体验开始 */
+.mfty{
+	width: 50%;
+	height: 2.19rem;
+	/* background: yellow; */
+	border-right: 0.01rem solid #e8e8e8;
+	box-sizing: border-box;
+	float: left;
+}
+.mfty a{
+	display: block;
+	width: 100%;
+	height: 2.18rem;
+	/* background: red; */
+}
+.mfty a img{
+	display: block;
+	width: 100%;
+	height: 2.18rem;
+}
+/* 免费体验结束 */
+
+
+/* 助学贷款开始 */
+.zxdk{
+	width: 50%;
+	height: 2.17rem;
+	/* background: yellow; */
+	float: right;
+	border-bottom: 0.01rem solid #e8e8e8;
+}
+.zxdk a{
+	display: block;
+	width: 100%;
+	height: 2.18rem;
+	background: blue; 
+}
+.zxdk a img{
+	display: block;
+	width: 100%rem;
+	height: 2.18rem;
+}
+/* 助学贷款结束 */
+/* 免费试听开始 */
+.mfst{
+	width: 100%;
+	height: 1.39rem;
+	background: red;
+	float: left;
+}
+.mfst li{
+	width: 33.333%;
+	height: 1.40rem;
+	background: yellow;
+	float: left;
+	border-bottom: 0.01rem solid ##e8e8e8;
+	border-right: 0.01rem solid #e8e8e8;
+	box-sizing: border-box;
+}
+.mfst li a{
+	display: block;
+	width: 100%;
+	height: 1.40rem;
+	background: yellow;
+}
+.mfst li a img{
+	display: block;
+	width: 100%;
+	height: 1.40rem;
+}
+.mfst li:nth-child(3){
+	border-right: 0rem solid #e8e8e8;
+}
+/* 免费试听结束 */
+
+/* 服务体系结束*/
+
+
+/* 底部开始 */
+footer{
+	width: 100%;
+	height: 1.20rem;
+	background: #f5f6fa;
+	padding-top: 0.20rem;
+}
+.xq-mf-zx-bigbox{
+	width: 100%;
+	height: 0.8rem;
+	background: #fff;
+	overflow: hidden;
+}
+.xqcx{
+	width: 1.66rem;
+	height: 0.31rem;
+	/* background: red; */
+	font-size: 0.31rem;
+	color: #000000;
+	float: left;
+	line-height: 0.31rem;
+	margin-top: 0.24rem;
+	margin-left: 0.22rem;
+}
+
+
+@font-face {
+  font-family: 'iconfont';  /* project id 360477 */
+  src: url('http://at.alicdn.com/t/font_vyfhrlpbq33di.eot');
+  src: url('http://at.alicdn.com/t/font_vyfhrlpbq33di.eot?#iefix') format('embedded-opentype'),
+  url('http://at.alicdn.com/t/font_vyfhrlpbq33di.woff') format('woff'),
+  url('http://at.alicdn.com/t/font_vyfhrlpbq33di.ttf') format('truetype'),
+  url('http://at.alicdn.com/t/font_vyfhrlpbq33di.svg#iconfont') format('svg');
+}
+.sousuo{
+	font-family: 'iconfont';
+	font-size: 0.31rem;
+	color:#666666;
+}
+.mfbd-box{
+	width: 2.37rem;
+	height: 0.80rem;
+	background: #ff7e00;
+	border-radius: 0.07rem;
+	box-shadow: 0rem 0rem 0.20rem 0.05rem rgba(255, 126, 0, 0.5);
+	float: left;
+	margin-left: 0.84rem;
+}
+.mfbd-box a{
+	display: block;
+	width: 2.37rem;
+	height: 0.80rem;
+	/* background: green; */
+	margin: 0 auto;
+	font-family: 'iconfont';
+	font-size: 0.26rem;
+	line-height: 0.80rem;
+	text-align: center;
+	color: #fff;
+}
+
+@font-face {
+  font-family: 'iconfont';  /* project id 360477 */
+  src: url('http://at.alicdn.com/t/font_c7lcafq3ia3sdcxr.eot');
+  src: url('http://at.alicdn.com/t/font_c7lcafq3ia3sdcxr.eot?#iefix') format('embedded-opentype'),
+  url('http://at.alicdn.com/t/font_c7lcafq3ia3sdcxr.woff') format('woff'),
+  url('http://at.alicdn.com/t/font_c7lcafq3ia3sdcxr.ttf') format('truetype'),
+  url('http://at.alicdn.com/t/font_c7lcafq3ia3sdcxr.svg#iconfont') format('svg');
+}
+
+
+.zaixian a{
+	width: 1.39rem;
+	height: 0.8rem;
+	float: right;
+	margin-right: 0.18rem;
+	/* background: yellow; */
+	font-family: 'iconfont';
+	font-size: 0.26rem;
+	line-height: 0.8rem;
+	color: #000;
+}
+
+@font-face {
+  font-family: 'iconfont';  /* project id 360477 */
+  src: url('http://at.alicdn.com/t/font_0suasltjbfvquxr.eot');
+  src: url('http://at.alicdn.com/t/font_0suasltjbfvquxr.eot?#iefix') format('embedded-opentype'),
+  url('http://at.alicdn.com/t/font_0suasltjbfvquxr.woff') format('woff'),
+  url('http://at.alicdn.com/t/font_0suasltjbfvquxr.ttf') format('truetype'),
+  url('http://at.alicdn.com/t/font_0suasltjbfvquxr.svg#iconfont') format('svg');
+}
+

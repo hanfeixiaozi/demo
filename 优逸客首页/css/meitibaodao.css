@@ -1,0 +1,519 @@
+/*
+* @Author: Administrator
+* @Date:   2017-07-23 14:58:05
+* @Last Modified by:   Administrator
+* @Last Modified time: 2017-07-23 16:42:40
+*/
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+}
+
+
+/* 头部开始 */
+header{
+	width: 100%;
+	height: 0.92rem;
+	background: #0078e6;
+}
+
+.youyike-bigbox{
+	width: 2.01rem;
+	height: 100%;
+	/* background: green; */
+	margin: 0 auto;
+}
+.logo-box{
+	width: 0.7rem;
+	height: 0.67rem;
+	/* background: yellow; */
+	float: left;
+	margin-top: 0.13rem;
+}
+.logo-box img{
+	display: block;
+	width: 0.7rem;
+	height: 0.67rem;
+	/* background: red; */
+	font-size: 0.28rem;
+
+}
+.zi-box{
+	width:1.15rem;
+	height: 0.36rem;
+	font-size: 0.36rem;
+	color: #fff;
+	/* background: red; */
+	float: right;
+	line-height: 0.36rem;
+	margin-top: 0.28rem; 
+}
+/* 头部结束 */
+
+
+
+/* banner开始 */
+.banner{
+	width: 100%;
+	height: 2.8rem;
+	background: yellow;
+}
+.banner .a-biaoqianbox{
+	display: block;
+	width: 100%;
+	height: 2.8rem;
+	background: yellowgreen;
+}
+.a-biaoqianbox img{
+	display: block;
+	width: 100%;
+	height: 2.8rem;
+
+}
+/* banner结束 */
+
+
+/* 首页金牌师资开始 */
+.syjpsz-bigbox{
+	width: 100%;
+	height: 0.42rem;
+	background: #f5f6fa;
+	padding-top: 0.30rem;
+}
+.syjpsz-zibox{
+	width: 2.09rem;
+	height: 0.23rem;
+	/* background: yellow; */
+	font-size: 0.23rem;
+	color: #494747;
+	line-height: 0.23rem;
+	margin-left: 0.24rem;
+}
+.syjpsz-zibox a{
+	color: #494747;
+}
+/* 首页金牌师资结束 */
+
+/* H5开始 */
+.h5-bigbox{
+	width: 100%;
+	height: 3.39rem;
+	border-bottom: 0.03rem solid #f5f6fa;
+	box-sizing: border-box;
+	/* background: yellow; */
+}
+main{
+	width: 7.02rem;
+	height: 100%;
+	margin: 0 auto;
+	background: #fff;
+}
+.h5zi-bigbox{
+	width: 3.45rem;
+	height: 0.67rem;
+	/* background: pink; */
+	font-size: 0.23rem;
+	line-height: 0.67rem;
+	color: #000;
+}
+.h5tupian-box{
+	width: 2.05rem;
+	height: 1.58rem;
+	/* background: red; */
+	float: left;
+	margin-top: 0.03rem;
+}
+.h5tupian-box img{
+	width: 2.05rem;
+	height: 1.58rem;
+}
+.wenzi1-box{
+	width: 4.66rem;
+	height: 1.1rem;
+	/* background: yellow; */
+	float: left;
+	margin-left: 0.31rem;
+	font-size: 0.24rem;
+	color: #494747;
+}
+.wenzi2-box{
+	width: 4.3rem;
+	height: 0.24rem;
+	/* background: yellow; */
+	float: left;
+	margin-left: 0.31rem;
+	margin-top: 0.12rem;
+	font-size: 0.24rem;
+	color: #494747;
+}
+
+
+.liulan-bigbox{
+	width: 7.01rem;
+	height: 0.62rem;
+	/* background: green; */
+	float: left;
+	margin-top: 0.18rem;
+	border-top: 0.01rem solid #d2d2d2;
+	border-bottom: 0.01rem solid #d2d2d2;
+	box-sizing: border-box;
+}
+.rili{
+	width: 0.30rem;
+	height: 0.30rem;
+	background: #fff;
+	float: left;
+	border: 0.01rem solid #6f6f6f;
+	border-radius: 50%;
+	margin-top: 0.15rem;
+	font-family: 'iconfont';
+	font-size: 0.20rem;
+	color: #6f6f6f;
+	text-align: center;
+	line-height: 0.30rem;
+
+}
+/* 日历iconfont */
+@font-face {
+  font-family: 'iconfont';  /* project id 360477 */
+  src: url('http://at.alicdn.com/t/font_hpi94jkcact0529.eot');
+  src: url('http://at.alicdn.com/t/font_hpi94jkcact0529.eot?#iefix') format('embedded-opentype'),
+  url('http://at.alicdn.com/t/font_hpi94jkcact0529.woff') format('woff'),
+  url('http://at.alicdn.com/t/font_hpi94jkcact0529.ttf') format('truetype'),
+  url('http://at.alicdn.com/t/font_hpi94jkcact0529.svg#iconfont') format('svg');
+}
+
+.riqi{
+	width: 1.28rem;
+	height: 0.17rem;
+	/* background: yellow; */
+	float: left;
+	margin-top: 0.22rem;
+	margin-left: 0.1rem;
+	font-size: 0.17rem;
+	line-height: 0.17rem;
+	color:  #6f6f6f;
+}
+
+.yuanxin{
+	width: 0.30rem;
+	height: 0.31rem;
+	background: #fff;
+	float: left;
+	border: 0.01rem solid #6f6f6f;
+	border-radius: 50%;
+	margin-top: 0.15rem;
+	margin-left: 0.10rem;
+	font-family: 'iconfont';
+	font-size: 0.15rem;
+	color: #6f6f6f;
+	text-align: center;
+	line-height: 0.31rem;
+}
+
+/* 圆心iconfont */
+@font-face {
+  font-family: 'iconfont';  /* project id 360477 */
+  src: url('http://at.alicdn.com/t/font_1rxeexbdlyqlg14i.eot');
+  src: url('http://at.alicdn.com/t/font_1rxeexbdlyqlg14i.eot?#iefix') format('embedded-opentype'),
+  url('http://at.alicdn.com/t/font_1rxeexbdlyqlg14i.woff') format('woff'),
+  url('http://at.alicdn.com/t/font_1rxeexbdlyqlg14i.ttf') format('truetype'),
+  url('http://at.alicdn.com/t/font_1rxeexbdlyqlg14i.svg#iconfont') format('svg');
+}
+
+.shuliang{
+	width: 2.2rem;
+	height: 0.21rem;
+	/* background: yellow; */
+	float: left;
+	margin-top: 0.20rem;
+	font-size: 0.21rem;
+	line-height: 0.21rem;
+	color: #666666;
+}
+
+
+.fenxiang{
+	width: 0.30rem;
+	height: 0.31rem;
+	background: #fff;
+	float: left;
+	border: 0.01rem solid #6f6f6f;
+	border-radius: 50%;
+	margin-top: 0.15rem;
+	margin-left: 0.05rem;
+	font-family: 'iconfont';
+	font-size: 0.15rem;
+	color: #6f6f6f;
+	text-align: center;
+	line-height: 0.31rem;
+}
+
+/* 分享iconfont */
+@font-face {
+  font-family: 'iconfont';  /* project id 360477 */
+  src: url('http://at.alicdn.com/t/font_hip0f8h2iq9f6r.eot');
+  src: url('http://at.alicdn.com/t/font_hip0f8h2iq9f6r.eot?#iefix') format('embedded-opentype'),
+  url('http://at.alicdn.com/t/font_hip0f8h2iq9f6r.woff') format('woff'),
+  url('http://at.alicdn.com/t/font_hip0f8h2iq9f6r.ttf') format('truetype'),
+  url('http://at.alicdn.com/t/font_hip0f8h2iq9f6r.svg#iconfont') format('svg');
+}
+.dianjiliang{
+	width: 2.2rem;
+	height: 0.21rem;
+	/* background: yellow; */
+	float: left;
+	margin-top: 0.20rem;
+	font-size: 0.21rem;
+	line-height: 0.21rem;
+	color: #666666;
+}
+/* H5结束 */
+
+
+
+
+/* 底部开始 */
+footer{
+	width: 100%;
+	height: 1.69rem;
+	background: #f5f6fa;
+}
+.xxl{
+	width: 100%;
+	height: 0.70rem;
+	background: #ffffff;
+	overflow: hidden;
+}
+.zuojt a{
+	display: block;
+	width: 0.58rem;
+	height: 0.31rem;
+	background: yellow;
+	float: left;
+	margin-left: 0.13rem;
+	margin-top: 0.19rem;
+}
+.zuojt a img{
+	display: block;
+	width: 0.58rem;
+	height: 0.31rem; 
+}
+
+
+
+.yi a{
+	display: block;
+	width: 0.32rem;
+	height: 0.3rem;
+	float: left;
+	background: yellow;
+	margin-left: 0.15rem;
+	margin-top: 0.19rem;
+}
+.yi a img{
+	display: block;
+	width: 0.32rem;
+	height: 0.32rem; 
+}
+
+
+.er a{
+	display: block;
+	width: 0.32rem;
+	height: 0.3rem;
+	float: left;
+	background: yellow;
+	margin-left: 0.15rem;
+	margin-top: 0.19rem;
+}
+.er a img{
+	display: block;
+	width: 0.32rem;
+	height: 0.32rem; 
+}
+
+
+.san a{
+	display: block;
+	width: 0.32rem;
+	height: 0.3rem;
+	float: left;
+	background: yellow;
+	margin-left: 0.14rem;
+	margin-top: 0.19rem;
+}
+.san a img{
+	display: block;
+	width: 0.32rem;
+	height: 0.32rem; 
+}
+
+
+.si a{
+	display: block;
+	width: 0.32rem;
+	height: 0.3rem;
+	float: left;
+	background: yellow;
+	margin-left: 0.14rem;
+	margin-top: 0.19rem;
+}
+.si a img{
+	display: block;
+	width: 0.32rem;
+	height: 0.32rem; 
+}
+
+.wu a{
+	display: block;
+	width: 0.32rem;
+	height: 0.3rem;
+	float: left;
+	background: yellow;
+	margin-left: 0.14rem;
+	margin-top: 0.19rem;
+}
+.wu a img{
+	display: block;
+	width: 0.32rem;
+	height: 0.32rem; 
+}
+
+
+.sehngluehao a{
+	display: block;
+	width: 0.32rem;
+	height: 0.3rem;
+	float: left;
+	background: yellow;
+	margin-left: 0.14rem;
+	margin-top: 0.19rem;
+}
+.sehngluehao a img{
+	display: block;
+	width: 0.32rem;
+	height: 0.32rem; 
+}
+
+
+.sanshi a{
+	display: block;
+	width: 0.32rem;
+	height: 0.3rem;
+	float: left;
+	background: yellow;
+	margin-left: 0.14rem;
+	margin-top: 0.19rem;
+}
+.sanshi a img{
+	display: block;
+	width: 0.32rem;
+	height: 0.32rem; 
+}
+
+
+.youjiantou a{
+	display: block;
+	width: 0.58rem;
+	height: 0.31rem;
+	float: left;
+	background: yellow;
+	margin-left: 0.14rem;
+	margin-top: 0.19rem;
+}
+.youjiantou a img{
+	display: block;
+	width: 0.58rem;
+	height: 0.31rem; 
+}
+
+.tiaozhuan{
+	width: 0.85rem;
+	height: 0.14rem;
+	/* background: yellow; */
+	float: left;
+	font-size: 0.14rem;
+	line-height: 0.14rem;
+	margin-top: 0.26rem;
+	margin-left: 0.14rem;
+}
+
+.shurukong{
+	width: 0.56rem;
+	height: 0.31rem;
+	border-radius: 0.1rem;
+	background: #fff;
+	float: left;
+	margin-top: 0.19rem;
+	margin-left: 0.06rem;
+	border: 0.01rem solid #e9e8e9;
+	box-sizing: border-box;
+	padding-left: 0.02rem;
+	padding-top: 0.02rem;
+
+}
+
+
+.shurukong input{
+	display: block;
+	width: 0.41rem;
+	height: 0.17rem;
+	line-height: 0.31rem;
+	text-align: center;
+	/* color: yellow; */
+	border-radius: 0.08rem;
+
+}
+.ye{
+	width: 0.14rem;
+	height: 0.13rem;
+	margin-top: 0.27rem;
+	margin-left: 0.06rem;
+	float: left;
+	/* background: yellow; */
+	font-size: 0.13rem;
+	line-height: 0.13rem;
+}
+
+.go a{
+	display: block;
+	width: 0.32rem;
+	height: 0.32rem;
+	float: left;
+	/* background: yellow; */
+	border-radius: 50%;
+	margin-left: 0.14rem;
+	margin-top: 0.19rem;
+}
+.go a img{
+	display: block;
+	width: 0.32rem;
+	height: 0.32rem; 
+}
+
+/* 下面开始 */
+
+.banquan{
+	width: 100%;
+	height: 0.23rem;
+	/* background: yellow; */
+	margin-top: 0.29rem;
+	font-size: 0.23rem;
+	line-height: 0.23rem;
+	text-align: center;
+	color: #666666;
+}
+.lianxi{
+	width: 100%;
+	height: 0.23rem;
+	/* background: yellow; */
+	margin-top: 0.12rem;
+	font-size: 0.23rem;
+	line-height: 0.23rem;
+	text-align: center;
+	color: #666666;
+}
+/* 底部结束 */

@@ -1,0 +1,481 @@
+/*
+* @Author: Administrator
+* @Date:   2017-07-24 18:39:12
+* @Last Modified by:   Administrator
+* @Last Modified time: 2017-07-25 23:42:29
+*/
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+}
+.big{
+	width: 100%;
+	height: 55px;
+	background: #444444;
+}
+.main-big{
+	max-width: 980px;
+	height: 100%;
+	margin: 0 auto;
+	padding: 0 10px;
+	box-sizing: border-box;
+	/* background: yellow; */
+}
+ /* 大导航开始 */
+.big-nav{
+	/* width: 100%; */
+	max-width: 1000px;
+	height: 100%;
+	/* background: green; */
+	display: flex;
+	justify-content: space-between;
+	/* margin: 0 auto; */
+}
+.big-nav li{
+	font-size: 13px;
+	float: left;
+	line-height: 55px;
+}
+.big-nav li a{
+	color: #fff;
+}
+.big-nav li a:hover{
+	color: #9b9b9b;
+}
+
+.big-nav li:first-child{
+	font-family: 'iconfont';
+	font-size: 24px;
+}
+.big-nav li:nth-child(8){
+	font-family: 'iconfont'; 
+	font-size: 19px;
+}
+.big-nav li:nth-child(9){
+	font-family: 'iconfont';
+	font-size: 21px;
+}
+
+ /* iconfont开始 */
+@font-face {
+  font-family: 'iconfont';  /* project id 363491 */
+  src: url('http://at.alicdn.com/t/font_9e3qpqlixn56d2t9.eot');
+  src: url('http://at.alicdn.com/t/font_9e3qpqlixn56d2t9.eot?#iefix') format('embedded-opentype'),
+  url('http://at.alicdn.com/t/font_9e3qpqlixn56d2t9.woff') format('woff'),
+  url('http://at.alicdn.com/t/font_9e3qpqlixn56d2t9.ttf') format('truetype'),
+  url('http://at.alicdn.com/t/font_9e3qpqlixn56d2t9.svg#iconfont') format('svg');
+}
+@font-face {
+  font-family: 'iconfont';  /* project id 363501 */
+  src: url('http://at.alicdn.com/t/font_5wqiul7mz14w8kt9.eot');
+  src: url('http://at.alicdn.com/t/font_5wqiul7mz14w8kt9.eot?#iefix') format('embedded-opentype'),
+  url('http://at.alicdn.com/t/font_5wqiul7mz14w8kt9.woff') format('woff'),
+  url('http://at.alicdn.com/t/font_5wqiul7mz14w8kt9.ttf') format('truetype'),
+  url('http://at.alicdn.com/t/font_5wqiul7mz14w8kt9.svg#iconfont') format('svg');
+}
+/* 大导航结束 */
+
+
+/* 小导航开始 */
+.small{
+	max-width:100%;
+	height: 60px;
+	background: #303030;
+}
+.main-small{
+	max-width:716px;
+	height: 100%; 
+	margin: 0 auto;
+	padding: 0 10px;
+	box-sizing: border-box;
+}
+.small-nav{
+	width: 100%;
+	height: 60px;
+	/* background: yellow; */
+	display: flex;
+	justify-content: space-between;
+}
+.small-nav li{
+	font-size: 21px;
+	line-height: 60px;
+	float: left;	
+}
+.small-nav li a{
+	color: #fff;
+}
+.small-nav li a :hover{
+	clear: #9b9b9b;
+}
+.small-nav li a:hover{
+	color: #9b9b9b;
+}
+.small-nav li{
+	font-family: 'iconfont';
+}
+
+/* 展开iconfont开始 */
+@font-face {
+  font-family: 'iconfont';  /* project id 363491 */
+  src: url('http://at.alicdn.com/t/font_qx5cpkjfz9kvs4i.eot');
+  src: url('http://at.alicdn.com/t/font_qx5cpkjfz9kvs4i.eot?#iefix') format('embedded-opentype'),
+  url('http://at.alicdn.com/t/font_qx5cpkjfz9kvs4i.woff') format('woff'),
+  url('http://at.alicdn.com/t/font_qx5cpkjfz9kvs4i.ttf') format('truetype'),
+  url('http://at.alicdn.com/t/font_qx5cpkjfz9kvs4i.svg#iconfont') format('svg');
+}
+/* 小导航结束 */
+.big{
+	display: block;
+}
+.small{
+	display: none;
+}
+.bigfoot{
+	display: block;
+}
+.smallfoot{
+	display: none;
+}
+@media screen and (max-width: 800px){
+	.big{
+	display: none;
+	}
+.small{
+	display: block;
+	}
+	.bigfoot{
+	display: none;
+	}
+	.smallfoot{
+	display: block;
+	}
+	
+}
+/* banner开始 */
+.banner{
+	width: 100%;
+	height: 620px;
+	/* background: yellow; */
+	background-image: url('../img/siri_large.jpg');
+	/* background-size: 668px 334px;
+	background-repeat: no-repeat; */
+	background-position: center;
+	overflow: hidden;
+}
+
+.wenzi1{
+	width: 100%;
+	height: 58px;
+	/* background: yellow; */
+	font-size: 58px;
+	color: #fff;
+	line-height: 58px;
+	text-align: center;
+	margin-top: 95px;
+}
+
+.wenzi2{
+	width: 100%;
+	height: 23px;
+	font-size: 23px;
+	color: #fff;
+	line-height: 23px;
+	text-align: center;
+	margin-top: 34px;
+	font-family: 'iconfont';
+}
+
+
+@font-face {
+  font-family: 'iconfont';  /* project id 363491 */
+  src: url('http://at.alicdn.com/t/font_k9o3cobbia2d42t9.eot');
+  src: url('http://at.alicdn.com/t/font_k9o3cobbia2d42t9.eot?#iefix') format('embedded-opentype'),
+  url('http://at.alicdn.com/t/font_k9o3cobbia2d42t9.woff') format('woff'),
+  url('http://at.alicdn.com/t/font_k9o3cobbia2d42t9.ttf') format('truetype'),
+  url('http://at.alicdn.com/t/font_k9o3cobbia2d42t9.svg#iconfont') format('svg');
+}
+
+.fenlei{
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+	/* background: yellow; */
+}
+.fenlei li{
+	width: 25%;
+	height: 272px;
+	border-bottom: 2px solid #fff;
+	/* border-top: 2px solid #fff; */
+	border-right: 2px solid #fff;
+	box-sizing: border-box;
+	/* background: red; */
+	float: left;
+}
+.fenlei li:first-child{
+	background-image: url('../img/apple_pay_medium.jpg');
+	background-position: center;
+}
+.fenlei li:nth-child(2){
+	background-image: url('../img/imac_medium.jpg');
+	background-position: center;
+}
+.fenlei li:nth-child(3){
+	background-repeat: no-repeat;
+	background-image: url('../img/summer_casual_medium.jpg');
+	background-position: center;
+}
+.fenlei li:last-child{
+	border-right: none;
+	background-image: url('../img/how_to_shoot_on_iphone_large.png');
+	background-position: center;
+}
+@media screen and (max-width: 992px){
+	.fenlei li{
+		width: 50%; 
+	}
+	.fenlei li:nth-child(2n){
+		border-right: none;
+	}
+}
+@media screen and (max-width: 800px){
+	.fenlei li{
+		width: 100%;
+		border-right: none;
+	}
+	
+}
+
+
+/* 加字开始 */
+.fenlei li .Pay{
+	width: 100%;
+	height: 21px;
+	font-size: 21px;
+	line-height: 21px;
+	text-align: center;
+	margin-top: 33px;
+	color: #000;
+	font-family: 'iconfont'; 
+}
+.fenlei li .ding{
+	width: 100%;
+	height: 21px;
+	font-size: 21px;
+	line-height: 21px;
+	text-align: center;
+	margin-top: 4px;
+	color: #000; 
+}
+.fenlei li .imac{
+	width: 100%;
+	height: 21px;
+	font-size: 21px;
+	line-height: 21px;
+	text-align: center;
+	margin-top: 33px;
+	color: #000; 
+}
+.fenlei li .mu{
+	width: 100%;
+	height: 21px;
+	font-size: 21px;
+	line-height: 21px;
+	text-align: center;
+	margin-top: 4px;
+	color: #000; 
+}
+.fenlei li .xia{
+	width: 100%;
+	height: 21px;
+	font-size: 21px;
+	line-height: 21px;
+	text-align: center;
+	margin-top: 33px;
+	color: #000; 
+}
+.fenlei li .qing{
+	width: 100%;
+	height: 21px;
+	font-size: 21px;
+	line-height: 21px;
+	text-align: center;
+	margin-top: 4px;
+	color: #000; 
+}
+.fenlei li .shi{
+	width: 100%;
+	height: 21px;
+	font-size: 21px;
+	line-height: 21px;
+	text-align: center;
+	margin-top: 33px;
+	color: #fff; 
+}
+.fenlei li .pai{
+	width: 100%;
+	height: 21px;
+	font-size: 21px;
+	line-height: 21px;
+	text-align: center;
+	margin-top: 4px;
+	color: #fff; 
+}
+
+
+/* 双镜头摄像开始 */
+.sjt{
+	width: 100%;
+	height: 49px;
+	background: #f2f2f2;
+	
+
+}
+.sjtzi{
+	width: 100%;
+	height: 49px;
+	font-size: 10px;
+	color: #888888;
+	line-height: 49px;
+	margin: 0 auto;
+	border-bottom: 1px solid #d6d6d6;
+	box-sizing: border-box;
+}
+/* 底部开始 */
+/* 大底部开始 */
+.bigfoot{
+	width:100%;
+	height: auto; 
+	background: #f2f2f2;
+	overflow: hidden;
+}
+.db-bigbox{
+	max-width: 852px;
+	height: 284px;
+	/* background: red; */
+	/* margin: 0 auto; */
+}
+.db-bigbox li{
+	width: 20%;
+	height:100%;
+	/* background: green; */
+	float: left; 
+}
+.db-bigbox li h1{
+	font-size: 10px;
+	color: #333333;
+	margin-top: 42px;
+	margin-bottom: 12px;
+}
+.db-bigbox li .limian .lie{
+	width: 100%;
+	font-size: 9px;
+	line-height: 9px;
+	margin-bottom: 12px;
+}
+.db-bigbox li .limian .lie a{
+	color: #555555; 
+}
+.db-bigbox li .limian .lie:hover a{
+	border-bottom: 1px solid #555555;
+}
+
+
+.gengduo{
+	width: 100%;
+	height: 32px;
+	/* background: yellow; */
+	margin-top: 32px;
+	border-bottom: 1px solid #555555;
+	box-sizing: border-box;
+	font-size: 10px;
+	line-height: 32px;
+	color: #888888;
+}
+.gengduo a{
+	color: #0070c9;
+}
+.gengduo:hover .apple{
+	border-bottom: 1px solid #0070c9;
+}
+.gengduo:hover .shouquan{
+	border-bottom: 1px solid #0070c9;
+}
+
+.banquan{
+	width: 100%;
+	height: 50px;
+	background: #f2f2f2;
+}
+
+.copy{
+	width: 249px;
+	height: 32px;
+	font-size: 11px;
+	line-height: 32px;
+	float: left;
+}
+.banquan>ul{
+	width: 350px;
+	height: 17px;
+	margin-right: 17px;
+	margin-top: 7px;
+	float: left;
+	
+}
+.banquan>ul>li{
+	width: 70px;
+	height: 17px;
+	border-right: 1px solid #d6d6d6;
+	box-sizing: border-box;
+	float: left;
+	font-size: 11px;
+	line-height: 17px;
+	text-align: center;
+}
+.banquan>ul>.wangzhan{
+	border-right: 0px;
+}
+.zg{
+	width: 48px;
+	height: 16px;
+	float:right;
+	font-size: 16px;
+	line-height: 16px;
+	margin-top: 7px;
+}
+.zg img{display: block;
+	width: 16px;
+	height: 16px;
+	line-height: 16px;
+	float: left;
+}
+.jing{
+	width: 100%;
+	height: 16px;
+	font-size: 10px;
+	color: #9e9e9e;
+	margin-top: 2px;
+	float: left;
+}
+/* 大底部结束 
+
+
+/* 小底部开始 */
+.smallfoot{
+	width: 100%;
+	height: auto;
+	background: #f2f2f2;
+}
+.dibu{
+	width: 100%;
+	height: 365px;
+}
+.dibu li{
+	width: 100%;
+	height: 49px;
+	font-size:13px;
+	line-height: 49px;
+	border-bottom: 1px solid #d6d6d6; 
+}

@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+main{
+    width:1170px;
+    height:auto;
+    /*background: red;*/
+    margin: 0 auto;
+}
+.content{
+    width:100%;
+    height:759px;
+    /*background: #ff6700;*/
+    padding-top: 32px;
+    box-sizing: border-box;
+}
+.mainbody{
+    width:878px;
+    height:auto;
+    background: #fff;
+    float: left;
+    padding-left: 30px;
+    padding-right: 30px;
+    box-sizing: border-box;
+}
+.timubox{
+    width:878px;
+    height:118px;
+    /*background: yellow;*/
+    padding-top: 32px;
+    box-sizing: border-box;
+    border-bottom: 1px solid #F0F2F5;
+}
+.timubox h1{
+    width:817.5px;
+    height:38px;
+    font-size: 32px;
+    color: #000;
+}
+.timubox span:nth-child(2){
+    display: block;
+    font-size: 16px;
+    color: #a3afb7;
+    margin-top: 10px;
+    float: left;
+}
+.timubox span:nth-child(3){
+    display: block;
+    font-size: 16px;
+    color: #a3afb7;
+    margin-top: 10px;
+    margin-left: 15px;
+    margin-right: 14px;
+    float: left;
+}
+.timubox span:nth-child(4){
+    display: block;
+    font-size: 16px;
+    color: #a3afb7;
+    margin-top: 10px;
+    float: left;
+    font-family: 'iconfont';
+}
+.img{
+    width:700px;
+    height:349px;
+    margin: 0 auto;
+    padding-top: 32px;
+}
+.mainbody p{
+    display: inline-block;
+    width:100%;
+    font-size: 18px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+.mainbody .zhengwen{
+    display: inline-block;
+    width:100%;
+    font-size: 18px;
+    text-align: left;
+    padding: 5px 0;
+    box-sizing: border-box;
+
+}
+
+
+
+
+
+
+
+.asild{
+    width:262px;
+    height:629px;
+    background: rebeccapurple;
+    float: right;
+    margin-left: 30px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@font-face {
+    font-family: 'iconfont';  /* project id 397263 */
+    src: url('http://at.alicdn.com/t/font_397263_wzgo7l1e7i6vquxr.eot');
+    src: url('http://at.alicdn.com/t/font_397263_wzgo7l1e7i6vquxr.eot?#iefix') format('embedded-opentype'),
+    url('http://at.alicdn.com/t/font_397263_wzgo7l1e7i6vquxr.woff') format('woff'),
+    url('http://at.alicdn.com/t/font_397263_wzgo7l1e7i6vquxr.ttf') format('truetype'),
+    url('http://at.alicdn.com/t/font_397263_wzgo7l1e7i6vquxr.svg#iconfont') format('svg');
+}

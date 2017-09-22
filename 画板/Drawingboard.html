@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="Drawingboard.css">
+	<script src="Drawingboard.js"></script>
+</head>
+
+<body>
+	<main>
+		<ul class="left">
+		    <li>
+		    	<span>形状</span>
+		    	<ol class="line too" id="line">&#xe60b;</ol>
+				<ol class="round too" id="round">&#xe640;</ol>
+				<ol class="rectangle too" id="rectangle">&#xe604;</ol>
+				<ol class="duojiaoxing too" id="polyj">&#xe612;</ol>
+		    </li>
+		     <li>
+		    	<span>工具</span>
+		    	
+				<ol class="pencil too" id="pencil">&#xe62b;</ol>
+				<ol class="dash too" id="dash">&#xe672;</ol>
+				<ol class="clip too">&#xe600;</ol>
+				<ol class="font">&#xe620;</ol>
+				<ol class="storke as" id="stroke">&#xe61f;</ol>
+				<ol class="fill as" id="fill">&#xe690;</ol>
+				<ol class="eraser too" id="eraser">&#xe67f;</ol>
+
+
+		    </li>
+		    <li>
+		    	<span>颜色</span>
+		    	
+				<ol><input type="color" class="color" id="fills"></ol>
+				<ol><input type="color" class="color" id="strokes"></ol>				
+		    </li>
+			
+		</ul>
+		<div class="right">
+			<div class="top">
+				<li>
+					<ol class="xinjian">&#xe6a2;</ol>
+					<a class="save">&#xe617;</a>
+					<ol class="back">&#xe60a;</ol>
+					<ol class="revser">反向</ol>
+
+				</li>
+			</div>
+			<div class="bottom">
+				<canvas width="1259" height="593"></canvas>
+				<div class="mash"></div>
+				<div class="clipobj"></div>
+				<div class="eraserbox"></div>
+				
+			</div>
+			
+		</div>
+	</main>
+</body>
+</html>
+
+<script src="event.js"></script>
